@@ -223,7 +223,7 @@
 				}
 			</style>
 			<div id="logo" style="position:absolute;display:inline-block;height:60px;vertical-align:middle" alt="Cydia Logo"></div>
-			<p style="padding-top:8px;margin-left:70px;text-align:center;display:block;height:60px;text-rendering:optimizeLegibility"><span style="font-size:18px">Welcome to Cydia<sup>™</sup></span><br><span style="font-size:14px">by <a href="http://www.saurik.com/">Jay Freeman (saurik)</a></span></p>
+			<p style="padding-top:8px;margin-left:70px;text-align:center;display:block;height:60px;text-rendering:optimizeLegibility"><span style="font-size:18px">Welcome to Cydia<sup>™</sup></span><br><span style="font-size:14px">Redesigned by Squ1dd13.</span></p>
 		</div>
 		<block class="error hidden" style="background-color:red;font-weight:bold;border:3px solid #000">
 			<p id="error"></p>
@@ -236,10 +236,9 @@
 		     class="half"><a href="featured.html" onclick="return badge('featured')"><img class="icon" src="ui/ios~iphone/1.1/home/featured.png"><div><div><label><p>Featured</p></label><label class="hidden badge" id="badge-featured"><p>New</p></label></div></div></a></fieldset>
 			<fieldset
 			     class="more"><a href="themes.html" onclick="return badge('themes')"><img class="icon" src="ui/ios~iphone/1.1/home/themes.png"><div><div><label><p>Themes</p></label><label class="hidden badge" id="badge-themes"><p>New</p></label></div></div></a></fieldset>
-				<fieldset
-				     class="spots"><img class="icon"></fieldset>
+
 					<fieldset
-					     style="background-color:#eefff0"><a href="account.html" onclick="return badge('account')"><img class="icon" src="ui/ios~iphone/1.1/home/account.png"><div><div><label id="account"><p>Manage Account</p></label><label class="hidden badge" id="badge-account"><p>New</p></label></div></div></a></fieldset>
+					     style="background-color:rgba(255, 255, 255, .0)"><a href="account.html" onclick="return badge('account')"><img class="icon" src="ui/ios~iphone/1.1/home/account.png"><div><div><label id="account"><p>Manage Account</p></label><label class="hidden badge" id="badge-account"><p>New</p></label></div></div></a></fieldset>
 						<fieldset>
 							<a href="upgrading.html">
 								<div>
@@ -304,9 +303,6 @@
 								</div>
 							</a>
 						</fieldset>
-						<footer>
-							<p><span id="model"></span>, iOS <span id="firmware"></span>, Cydia<span id="bittage"></span>_<span id="client"></span> (en-us)<br><span id="device"></span></p>
-						</footer>
 						<script type="text/javascript">
 							var update = function() {};
 							document.addEventListener("CydiaReloadData", function() {
