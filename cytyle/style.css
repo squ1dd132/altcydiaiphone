@@ -1,4 +1,4 @@
-body {background-color: #fff;}
+body {background-color: rgba(255, 255, 255, .0);}
 
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
@@ -126,11 +126,11 @@ body.white {
 }
 
 .cytyle-faux body.pinstripe {
-	background: #fff url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=')
+	background: rgba(255, 255, 255, .0) url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAABCAIAAACdaSOZAAAAFElEQVQIHWM4euYKErp0+tINIAIAuHQQ4rDrv5YAAAAASUVORK5CYII=')
 }
 
 .cytyle-flat body.pinstripe {
-	background: #fff
+	background: rgba(255, 255, 255, .0)
 }
 
 body {
